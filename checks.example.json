@@ -1,0 +1,5 @@
+[
+  {"name": "site", "type": "http", "url": "https://example.com", "expect": 200},
+  {"name": "ssh", "type": "tcp", "host": "127.0.0.1", "port": 22},
+  {"name": "root disk", "type": "disk", "path": "/", "max_percent": 90}
+]
